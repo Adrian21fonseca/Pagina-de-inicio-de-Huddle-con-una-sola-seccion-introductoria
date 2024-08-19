@@ -1,0 +1,77 @@
+@media (min-width:1000px){
+
+    body{
+        background-image: url("../images/bg-desktop.svg");
+        background-size: 1100px;
+        background-repeat: no-repeat;
+    }
+
+    .contenedor{
+        width: 88%;
+    }
+
+    .logo{
+        width: 180px;
+        margin-bottom: 50px;
+    }
+
+    .cuerpo{
+        display: flex;
+    }
+
+    .ilustracion{
+        width: 60%;
+    }
+
+    .ilustracion-imagen{
+        width: 95%;
+        margin-bottom: 0;
+    }
+
+    .complemento{
+        width: 40%;
+        text-align: left;
+    }
+
+    .titulo{
+        font-size: 30px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    .texto-complemento{
+        line-height: 1.8;
+    }
+
+    .boton{
+        width: 180px;
+        padding: 15px 0;
+        margin-bottom: 0;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.491);
+        cursor: pointer;
+        transition: .3s;
+    }
+
+    .pie-de-pagina{
+        margin: 0;
+        justify-content: end;
+    }
+
+    .btn-social{
+        transition: 0.3s;
+    }
+
+    .boton:hover{
+        background-color: hsl(300, 69%, 71%);
+        color: white;
+        box-shadow: 0 10px 10px hsl(300, 30%, 35%);
+        transition: .6s;
+    }
+
+    .btn-social:hover{
+        border-color:  white;
+        background-color: hsl(300, 69%, 71%);
+        transition: .6s;
+    }
+
+}
